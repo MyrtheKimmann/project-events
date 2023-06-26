@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ignacio Doe",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb093da7d92733c001c0_Ignacio%20Villafruela%20Rodr%C3%ADguez.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Bennett",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb401d7131c760ca1c63_Elieska%20Lensink.jpg"
+    }
+  ],
+  "events": [
+    {
+      "createdBy": 2,
+      "title": "Trampoline party",
+      "description": "Bounce around with your friends",
+      "image": "https://i.pinimg.com/736x/3d/2f/af/3d2faf4e3188d34a9fcdc00df59e77b0.jpg",
+      "categoryIds": [
+        1
+      ],
+      "attendedBy": "2",
+      "location": "My back yard",
+      "startTime": "2023-03-10T18:00",
+      "endTime": "2023-03-10T17:00",
+      "id": 1
+    },
+    {
+      "createdBy": 2,
+      "title": "Escape room",
+      "description": "Solve a series of puzzles and riddles",
+      "image": "https://i.pinimg.com/564x/eb/20/9a/eb209a3ab7176d0b50c045aad59d9e73.jpg",
+      "categoryIds": "2",
+      "attendedBy": "1",
+      "location": "15 Main St.",
+      "startTime": "2023-04-06T13:51",
+      "endTime": "2023-04-06T14:54",
+      "id": 2
+    },
+    {
+      "createdBy": 1,
+      "title": "Yoga",
+      "description": "It's a bit of a stretch.",
+      "image": "https://ymcasouthflorida.org/wp-content/uploads/2019/12/AA2I8910-scaled.jpg",
+      "categoryIds": "3",
+      "attendedBy": [
+        1
+      ],
+      "location": "Shavasana Yoga School",
+      "startTime": "2023-03-09T06:00",
+      "endTime": "2023-03-09T07:00",
+      "id": 3
+    },
+    {
+      "createdBy": 1,
+      "title": "Hide and seek",
+      "description": "Hide!",
+      "image": "https://i.pinimg.com/564x/bb/23/b5/bb23b5520e6c3e449827da826d7666d7.jpg",
+      "categoryIds": "2",
+      "attendedBy": "1",
+      "location": "outside",
+      "startTime": "2023-03-09T06:00",
+      "endTime": "2023-03-09T07:00",
+      "id": 4
+    },
+    {
+      "createdBy": 2,
+      "title": "Surfing",
+      "description": "Catch some waves!",
+      "image": "https://i.pinimg.com/564x/06/a3/4c/06a34c00fd29928a4fd31a1dbb3db7e9.jpg",
+      "categoryIds": "1",
+      "attendedBy": "1",
+      "location": "Beach",
+      "startTime": "2023-06-24T20:36",
+      "endTime": "2023-06-24T20:36",
+      "id": 5
+    },
+    {
+      "createdBy": 2,
+      "title": "Cooking",
+      "description": "Cook a nice dinner!",
+      "image": "https://i.pinimg.com/564x/19/67/dd/1967ddeb64c46314f41e085beafd12a8.jpg",
+      "categoryIds": "3",
+      "attendedBy": [
+        1
+      ],
+      "location": "kitchen",
+      "startTime": "2023-06-24T20:36",
+      "endTime": "2023-03-09T07:00",
+      "id": 6
+    },
+    {
+      "createdBy": 2,
+      "title": "Spinning",
+      "description": "Sweat!",
+      "image": "https://i.pinimg.com/564x/e8/80/bd/e880bd7c1ff5cfda4ff4326d15258e8a.jpg",
+      "categoryIds": "1",
+      "attendedBy": [
+        1
+      ],
+      "location": "on the bike",
+      "startTime": "2023-06-24T20:36",
+      "endTime": "2023-03-09T07:00",
+      "id": 7
+    },
+    {
+      "createdBy": 2,
+      "title": "Bike ride",
+      "description": "Nice bike ride in nature.",
+      "image": "https://i.pinimg.com/564x/81/4f/43/814f4365932bfdd16b40df67cc46d939.jpg",
+      "categoryIds": "1",
+      "attendedBy": "2",
+      "location": "nature",
+      "startTime": "2023-06-24T20:36",
+      "endTime": "2023-03-09T07:00",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "name": "sports",
+      "id": 1
+    },
+    {
+      "name": "games",
+      "id": 2
+    },
+    {
+      "name": "relax",
+      "id": 3
+    }
+  ]
+}
